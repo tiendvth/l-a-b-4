@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <header class="p-4" style="border-bottom:1px #8f8f8f solid ">
+        <a href="../index.html" class="btn go_to_list btn-warning">List product</a>
+    </header>
+    <main class="form d-flex p-5">
+        <div class="col-5">
+            <h2 class="text-danger">Add product</h2>
+            <br>
+            <form action="">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="product_name">Product name</label>
+                        <input id="product_name" type="text" class="form-control" placeholder="Enter product name">
+                    </div>
+                </div>
+                <br>
+
+                <div class="row">
+                    <div class="form-group">
+                        <label for="price">Price</label>
+                        <input id="price" type="number" min="1" class="form-control" placeholder="Enter Price">
+                    </div>
+                </div>
+                <br>
+
+                <div class="row">
+                    <div class="form-group">
+                        <label for="thumbnail">Thumbnail</label>
+                        <input id="thumbnail" type="text" class="form-control" placeholder="Enter thumbnail url">
+                    </div>
+                </div>
+                <br>
+
+                <div class="row">
+                    <div class="form-group">
+                        <label for="thumbnail">Preview thumbnail</label>
+                        <div style="height: 200px">
+                            <img class="img_review d-none" style="border-radius: 5px;height: 130px;width: 200px;object-fit: cover" src="https://adchiase.com/upload/tour/bang-ngoc-dextra-cach-len-do-phu-hieu-dextra509202702743.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="form-group">
+                        <button type="button" class="form-control btn btn-primary btn_submit">Add product</button>
+                    </div>
+                </div>
+
+
+
+
+            </form>
+        </div>
+    </main>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="../script/index.js"></script>
+</body>
+</html>

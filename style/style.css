@@ -1,0 +1,17 @@
+
+.item_product{
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.item_product:hover{
+    box-shadow: #6e6e6e 2px 4px 6px;
+}
+
+
+.form {
+    justify-content: center;
+}
+
+
+
